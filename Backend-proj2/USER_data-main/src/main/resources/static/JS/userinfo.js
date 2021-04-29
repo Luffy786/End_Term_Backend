@@ -2,7 +2,7 @@
 
 function fun()
 {    var xhttp = new XMLHttpRequest();
-    xhttp.open("GET", "https://contactbookupgrad.herokuapp/getallusers", true);
+    xhttp.open("GET", "https://backend-proj2.herokuapp/getallusers", true);
     
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
